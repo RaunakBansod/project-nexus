@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150vh;
+  width: 60vh;
+  margin: auto;
+  flex-direction: column;
+  background-image: url("nature-pic.jpg");
+  background-size: cover ;
+}
+
+h1 {
+  align-items: center;
+  top: 0px;
+}
+
+.container1 {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  background-color: rgb(207, 224, 161) ;
+}
+
+.container2 {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  background-color: rgb(205, 223, 158) ;
+}
+
+h2 {
+  text-align: center;
+  color: #240303;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 6px;
+  color: #000000;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  background: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #5ce263;
+}
+
+.error-message {
+  color: #d9534f;
+  margin-top: 5px;
+}
+
+#signUpLink {
+  font-size: small;
+  text-align: center;
+}
+
+#loginLink {
+  font-size: small;
+  text-align: center;
+}
+
+#forgetPassword {
+  text-decoration: none;
+  font-size: small;
+}
+
+#checkbox {
+  font-size: small;
+}
+
+#anotherOption {
+  font-size: small;
+  text-align: center;
+}
+
+#icon1 {
+  align-items: center;
+  text-align: center;
+    font-weight: 800;
+  margin-left: 126px;
+}
+#icon2 {
+  align-items: center;
+  text-align: center;
+    font-weight: 800;
+  margin-left: 16px;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  input,
+  button {
+    width: 100%;
+  }
+}
+
+
